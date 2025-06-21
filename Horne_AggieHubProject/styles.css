@@ -1,0 +1,49 @@
+/* General body styling for font, margin, padding, and background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* light blue background */
+}
+
+/* Header styling with background color, text color, padding, and centering */
+header {
+    background-color: #002b5c; /* NC A&T blue */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation list styling: remove bullets and padding */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Display nav items inline with horizontal spacing */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Navigation links styling with white color and no underline */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content area padding for spacing */
+main {
+    padding: 20px;
+}
+
+/* Footer styling to match header, with color, centering, and fixed width */
+footer {
+    background-color: #002b5c; /* NC A&T blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

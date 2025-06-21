@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and external CSS link -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AggieHub - Events</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Header section with consistent logo and main navigation -->
+    <header>
+        <!-- NC A&T logo image -->
+        <img src="images/NCAT&logo.png" alt="NC A&T Logo" width="100" />
+        <h1>Campus Events</h1>
+        <!-- Navigation bar for site-wide navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="groups.html">Groups</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content listing upcoming campus events -->
+    <main>
+        <h2>Upcoming Campus Events</h2>
+        <!-- Static event list as fallback or overview -->
+        <ul>
+            <li><strong>Aggie Fest 2025:</strong> Celebrate NC A&T with food trucks, live music, and games on the main quad. <em>Date: April 15, 2025</em></li>
+            <li><strong>Career Fair:</strong> Meet top employers and find internship opportunities. <em>Date: March 28, 2025</em></li>
+            <li><strong>STEM Innovation Expo:</strong> See amazing student projects in science, technology, engineering, and math. <em>Date: May 10, 2025</em></li>
+            <li><strong>Homecoming Parade:</strong> Watch floats, bands, and alumni groups in the big parade. <em>Date: October 5, 2025</em></li>
+            <li><strong>Health & Wellness Fair:</strong> Enjoy free health checks, fitness shows, and workshops at Corbett Sports Center. <em>Date: September 12, 2025</em></li>
+        </ul>
+
+        <!-- Container for dynamically loaded event data from JSON file -->
+        <div id="apiData">Loading event data...</div>
+    </main>
+
+    <!-- Footer with copyright and validation links -->
+    <footer>
+        <p>&copy; 2025 AggieHub. All rights reserved.</p>
+        <p>
+            <a href="https://validator.w3.org/" target="_blank">HTML Validator</a> |
+            <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validator</a>
+        </p>
+    </footer>
+
+    <!-- External JavaScript file handling AJAX and dynamic content -->
+    <script src="script.js"></script>
+</body>
+</html>
